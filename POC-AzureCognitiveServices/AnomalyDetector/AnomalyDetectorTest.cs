@@ -16,7 +16,7 @@ namespace AnomalyDetector
         static readonly string endpoint = SubscriptionKey.getEndPointAnamolyDetector();
 
         // Replace the dataPath string with a path to the JSON formatted time series data.
-        const string dataPath = "D:\\minor open inno\\image search poc\\ImageSearch\\AnomalyDetector\\MOCK_DATA.json";
+        const string dataPath = "MOCK_DATA.json";
 
         const string latestPointDetectionUrl = "/anomalydetector/v1.0/timeseries/last/detect";
         const string batchDetectionUrl = "/anomalydetector/v1.0/timeseries/entire/detect";
